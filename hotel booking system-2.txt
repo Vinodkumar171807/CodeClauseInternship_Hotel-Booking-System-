@@ -1,0 +1,22 @@
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class Room {
+    private int roomId;
+    private int roomNumber;
+    private String roomType;
+    private double pricePerNight;
+    private boolean isAvailable;
+
+    public Room(int roomId, int roomNumber, String roomType, double pricePerNight, boolean isAvailable) {
+        this.roomId = roomId;
+        this.roomNumber = roomNumber;
+        this.roomType = roomType;
+        this.pricePerNight = pricePerNight;
+        this.isAvailable = isAvailable;
+    }
+
+    // Add methods to interact with the Room table in the database
+}
